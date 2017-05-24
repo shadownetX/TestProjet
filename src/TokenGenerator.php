@@ -58,4 +58,14 @@ class TokenGenerator
         return (String)$token;
     }
 
+    /**
+     * @return string
+     */
+    public function getCharacters(): string
+    {
+        return $this->characters;
+    }
+
+
+
 }
